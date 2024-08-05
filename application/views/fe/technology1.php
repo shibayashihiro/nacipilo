@@ -774,15 +774,18 @@
 
                             style="width: 100vw; will-change: transform; transform: translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
+                            <!-- new added section start -->
                             <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
 
-                                <h1 class="main-heading hero margin" style="width: 70%">Revolutionizing Indoor Radiation safety with Advanced<br>Nuclear Radiological System powered by NAC<br>Philotechnics</h1>
+                                <h1 class="main-heading hero margin" >Revolutionizing Indoor Radiation safety with Advanced<br>Nuclear Radiological System powered by NAC<br>Philotechnics</h1>
 
                             </div>   
 
-                            <div class="maingif" style="width: 74vw">
+                            <div class="maingif" style="width: 74vw; margin: 0px auto">
 
-                                <img src="<?php echo base_url('assets/technology/GIF1-ezgif.com-video-to-gif-converter.gif');?>">
+                                <img style="width:100%;"
+                                src="<?php echo base_url('assets/technology/GIF1-ezgif.com-video-to-gif-converter.gif');?>" 
+                                >
 
                             </div>   
                             
@@ -799,17 +802,12 @@
                                     <div class="col-md-7"><img src="<?php echo base_url('assets/technology/colorfuldot.png');?>"></div>
                                 </div>
                                 <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
-                                    <div class="col-md-5"><p class="main-paragraph" style="margin: 5vw 70px;font-size: 1.5vw; text-align: center;">The colorful dots in the images represent the points where the laser pulses hit objects, creating a point cloud that forms a 3D representation of the space.<br><br>By emitting laser pulses and measuring the time it takes for them to return after hitting an object, LIDAR can create detailed 3D maps of the environment.
-                                    </p></div>
-                                    <div class="col-md-7"><img src="<?php echo base_url('assets/technology/colorfuldot.png');?>" sizes="(max-width: 479px) 74vw, (max-width: 767px) 62vw, 40vw"></div>
-                                </div>
-                                <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
-                                    <div class="col-md-7"><img src="<?php echo base_url('assets/technology/gif2.gif');?>"></div>
+                                    <div class="col-md-7" style="padding: 0px 70px;"><img src="<?php echo base_url('assets/technology/gif2.gif');?>" style="width:100%;"></div>
                                     <div class="col-md-5"><p class="main-paragraph" style="margin: 5vw 70px;font-size: 1.5vw; text-align: center;">The blue dotted lines represent the path taken by the LIDAR system as it scans the environment in real-time. This trajectory analysis is crucial for understanding the movement and positioning of the system within the mapped space.<br>The 3D boundary scan creates a comprehensive map, showing not just the layout but also the boundaries and structural elements of the environment. 
                                     </p></div>                    
                                 </div>
                                 <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
-                                    <div class="col-md-7" style="padding: 0px 70px;"><img src="<?php echo base_url('assets/technology/realtime.png');?>"></div>
+                                    <div class="col-md-7" style="padding: 0px 9vw;"><img src="<?php echo base_url('assets/technology/realtime.png');?>"></div>
                                     <div class="col-md-5"><p class="main-paragraph" style="margin: 7vw 70px;font-size: 1.5vw; text-align: center;">Real time 2D mapping and analysis shows the black areas that represent the detected structures and obstacles within the environment, while the white background represents the empty spaces.<br><br>The green, yellow, and red dots on the path indicate different levels of radiation intensity detected at various points.
                                     </p></div>                    
                                 </div>
@@ -821,14 +819,14 @@
 
                             </div> 
                             <div class="row">
-                                <div class="col-md-6"> 
+                                <div class="col-md-6" style="text-align: center;"> 
                                     <img src="<?php echo base_url('assets/technology/endtoend1.png');?>" style="margin: 0px 70px;">
-                                    <p class="main-paragraph" style="margin: 30px 70px;font-size: 1.5vw;">The heat graph provides an immediate visual representation of radiation levels.<br>The color gradient from green to red helps in quickly identifying areas with higher radiation levels.
+                                    <p class="main-paragraph" style="text-align: center;margin: 30px 70px;font-size: 1.5vw;">The heat graph provides an immediate visual representation of radiation levels.<br>The color gradient from green to red helps in quickly identifying areas with higher radiation levels.
                                     </p>                       
                                 </div> 
-                                <div class="col-md-6"> 
+                                <div class="col-md-6" style="text-align: center;"> 
                                     <img src="<?php echo base_url('assets/technology/endtoend2.png');?>" style="margin: 0px 70px;">
-                                    <p class="main-paragraph" style="margin: 30px 70px;font-size: 1.5vw;">The contour map visually represents radiation intensity gradients across the surveyed area.
+                                    <p class="main-paragraph" style="text-align: center;margin: 30px 70px;font-size: 1.5vw;">The contour map visually represents radiation intensity gradients across the surveyed area.
                                     </p>                       
                                 </div>                    
                             </div>
@@ -838,6 +836,16 @@
                                 <img src="<?php echo base_url('assets/technology/datalist.png');?>" style="margin: 0 auto;">
                             </div>
 
+                            <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
+
+                                <h1 class="main-heading hero margin" style="width: 70%">Software Demo Video</h1>
+
+                            </div> 
+
+                            <div class="row">
+                                <iframe style="margin:0px auto;" width="1024" height="680" src="https://www.youtube.com/watch?v=-o-5FtSWd7w&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <!-- Section end -->
                             <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
 
                                 <h1 class="main-heading hero margin" style="width: 70%">Presenting more advanced Radiation Detection Instrument</h1>
@@ -1038,7 +1046,7 @@
 
                 </div>
 
-                <div class="main-paragraph hero" style="margin-top: 550px">
+                <div class="main-paragraph hero" style="margin-top: 7550px">
 
                     <h2 class="pb-5">Applications of ANQR Monitor</h2>
 
@@ -1160,7 +1168,7 @@
 
             <div class="about-section">
 
-                <div class="d-flex justify-content-center" style="margin-bottom: 50px; margin-top: 300px;">
+                <div class="d-flex justify-content-center" style="margin-bottom: 50px; margin-top: 30px;">
 
                     <div style="width: 75%">
 
@@ -1212,105 +1220,7 @@
 
             </div>
 
-            <div id="Features" class="accordion-section">
-
-                <h1 class="main-heading hero margin _2">Introducing Application for<br>Indoor Surveys</h1>
-
-                <div class="w-layout-grid accordion-grid">
-
-                    <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e5246-8a4fc969" class="row">
-
-                        <div class="div-block-3">
-
-                            <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e5248" style="opacity: 0;"
-
-                                class="container-text border">
-
-                                <div class="w-layout-grid grid-accordion">
-
-                                    <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e524a-8a4fc969" class="point"></div>
-
-                                    <div class="container-text">
-
-                                        <h1 class="accordion-heading">Quality Assurance</h1>
-
-                                        <p class="main-paragraph accordin">We utilize full features of our 2cm indoor positioning system and survey data logging algorithm to generate most efficient reports for the customers</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e5251" style="opacity: 0;"
-
-                                class="container-text border green">
-
-                                <div class="w-layout-grid grid-accordion">
-
-                                    <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e5253-8a4fc969" class="point green">
-
-                                    </div>
-
-                                    <div class="container-text">
-
-                                        <h1 class="accordion-heading">User Focus</h1>
-
-                                        <p class="main-paragraph accordin">The INDOOR application generates histograms for survey measurement data distribution and uploads the latest csv reports to the CLOUD</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e525a" style="opacity: 0;"
-
-                                class="container-text border orchid">
-
-                                <div class="w-layout-grid grid-accordion">
-
-                                    <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e525c-8a4fc969" class="point orchid">
-
-                                    </div>
-
-                                    <div class="container-text">
-
-                                        <h1 class="accordion-heading">Real-Time Data Auditing</h1>
-
-                                        <p class="main-paragraph accordin">Our application receives all the data in real-time and displays maps with exact locations of the survey measurements specifying radiation/contamination levels in those referenced locations(floor/walls/ceiling)</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e526c-8a4fc969" class="row relative">
-
-                        <img
-
-                            src="<?php echo base_url('assets/technology/6095475c255a0a6f114fc9da_1_1-8 (1).png');?>"
-
-                            loading="lazy" data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e526d" style="opacity: 0;" alt=""
-
-                            class="image-accorndion">
-
-                        <img
-
-                            src="<?php echo base_url('assets/technology/6095475c255a0a6f114fc9da_1_1-8 (1).png');?>"
-
-                            loading="lazy" alt="" class="image-accorndion">
-
-                    </div>
-
-                </div>
-
-            </div>
+            
 
             <div class="d-flex justify-content-center" style="margin-bottom: 100px;">
 
@@ -1592,6 +1502,78 @@
 
                                 style="width: 75vw; will-change: transform; transform: translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
+                                <!-- new added section start -->
+                                <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
+
+                                <h1 class="main-heading hero margin black" >Revolutionizing Indoor Radiation safety with Advanced<br>Nuclear Radiological System powered by NAC<br>Philotechnics</h1>
+
+                                </div>   
+
+                                <div class="maingif" style="width: 74vw; margin: 0px auto">
+
+                                <img style="width:100%;"
+                                src="<?php echo base_url('assets/technology/GIF1-ezgif.com-video-to-gif-converter.gif');?>" 
+                                >
+
+                                </div>   
+
+                                <div class="about-section" style="padding-bottom: 0px;">
+                                <div class="row">
+                                    <div class="col-md-4" style="padding: 0px 40px;"><img src="<?php echo base_url('assets/technology/anqr1.png');?>"></div>
+                                    <div class="col-md-4"><p class="main-paragraph black" style="margin: 0px 70px;font-size: 1.5vw; text-align: center;">ANQR is our Hardware and Software system that encapsulates the synergistic fusion of Lidar's spatial awareness, SLAM's mapping precision, and the camera's depth perception. By combining these technologies, the Lidar-enhanced ANQR System attains a high degree of localization accuracy while navigating and scanning rooms. This multi-dimensional approach revolutionizes radiation surveys by not only identifying radiation levels but also spatially mapping these levels within a given space.
+                                    </p></div>
+                                    <div class="col-md-4" style="padding: 0px 40px;"><img src="<?php echo base_url('assets/technology/anqr2.png');?>"></div>
+                                </div>
+                                <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
+                                    <div class="col-md-5"><p class="main-paragraph black" style="margin: 5vw 70px;font-size: 1.5vw; text-align: center;">The colorful dots in the images represent the points where the laser pulses hit objects, creating a point cloud that forms a 3D representation of the space.<br><br>By emitting laser pulses and measuring the time it takes for them to return after hitting an object, LIDAR can create detailed 3D maps of the environment.
+                                    </p></div>
+                                    <div class="col-md-7"><img src="<?php echo base_url('assets/technology/colorfuldot.png');?>"></div>
+                                </div>
+                                <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
+                                    <div class="col-md-7" style="padding: 0px 70px;"><img src="<?php echo base_url('assets/technology/gif2.gif');?>" style="width:100%;"></div>
+                                    <div class="col-md-5"><p class="main-paragraph black" style="margin: 5vw 70px;font-size: 1.5vw; text-align: center;">The blue dotted lines represent the path taken by the LIDAR system as it scans the environment in real-time. This trajectory analysis is crucial for understanding the movement and positioning of the system within the mapped space.<br>The 3D boundary scan creates a comprehensive map, showing not just the layout but also the boundaries and structural elements of the environment. 
+                                    </p></div>                    
+                                </div>
+                                <div class="row" style="margin-top: 2vw; margin-bottom: 2vw;">
+                                    <div class="col-md-7" style="padding: 0px 9vw;"><img src="<?php echo base_url('assets/technology/realtime.png');?>"></div>
+                                    <div class="col-md-5"><p class="main-paragraph black" style="margin: 7vw 70px;font-size: 1.5vw; text-align: center;">Real time 2D mapping and analysis shows the black areas that represent the detected structures and obstacles within the environment, while the white background represents the empty spaces.<br><br>The green, yellow, and red dots on the path indicate different levels of radiation intensity detected at various points.
+                                    </p></div>                    
+                                </div>
+                                </div>
+
+                                <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
+
+                                <h1 class="main-heading hero margin black" style="width: 70%">Featuring End-to-end automation by generating<br>instant outputs</h1>
+
+                                </div> 
+                                <div class="row">
+                                <div class="col-md-6" style="text-align: center;"> 
+                                    <img src="<?php echo base_url('assets/technology/endtoend1.png');?>" style="margin: 0px 70px;">
+                                    <p class="main-paragraph black" style="text-align: center;margin: 30px 70px;font-size: 1.5vw;">The heat graph provides an immediate visual representation of radiation levels.<br>The color gradient from green to red helps in quickly identifying areas with higher radiation levels.
+                                    </p>                       
+                                </div> 
+                                <div class="col-md-6" style="text-align: center;"> 
+                                    <img src="<?php echo base_url('assets/technology/endtoend2.png');?>" style="margin: 0px 70px;">
+                                    <p class="main-paragraph black" style="text-align: center;margin: 30px 70px;font-size: 1.5vw;">The contour map visually represents radiation intensity gradients across the surveyed area.
+                                    </p>                       
+                                </div>                    
+                                </div>
+                                <div class="row">
+                                <p class="main-paragraph black" style="margin: 30px 26vw;font-size: 1.5vw;text-align: center;">The tabulated data lists precise radiation readings along with their corresponding spatial coordinates and the date and time of each measurement, providing a comprehensive raw data report. 
+                                </p> 
+                                <img src="<?php echo base_url('assets/technology/datalist.png');?>" style="margin: 0 auto;">
+                                </div>
+
+                                <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px">
+
+                                <h1 class="main-heading hero margin black" style="width: 70%">Software Demo Video</h1>
+
+                                </div> 
+
+                                <div class="row">
+                                <iframe style="margin:0px auto;" width="1024" height="680" src="https://www.youtube.com/watch?v=-o-5FtSWd7w&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <!-- Section end -->
                                 <img src="<?php echo base_url('assets/technology/MDR_Box.png');?>" style='height: 75vh'
 
                                     loading="lazy"
@@ -1953,106 +1935,7 @@
                     </div>
 
                 </div>
-
-                <div id="Features" class="accordion-section">
-
-                    <h1 class="main-heading hero margin black _2">Introducing Application for<br>Indoor Surveys</h1>
-
-                    <div class="w-layout-grid accordion-grid">
-
-                        <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e5246-8a4fc969" class="row">
-
-                            <div class="div-block-3">
-
-                                <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e5248" style="opacity: 0;"
-
-                                    class="container-text border">
-
-                                    <div class="w-layout-grid grid-accordion">
-
-                                        <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e524a-8a4fc969" class="point"></div>
-
-                                        <div class="container-text">
-
-                                            <h1 class="accordion-heading black">Quality Assurance</h1>
-
-                                            <p class="main-paragraph accordin black">We utilize full features of our 2cm indoor positioning system and survey data logging algorithm to generate most efficient reports for the customers</p>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e5251" style="opacity: 0;"
-
-                                    class="container-text border green">
-
-                                    <div class="w-layout-grid grid-accordion">
-
-                                        <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e5253-8a4fc969" class="point green">
-
-                                        </div>
-
-                                        <div class="container-text">
-
-                                            <h1 class="accordion-heading black">User Focus</h1>
-
-                                            <p class="main-paragraph accordin black">The INDOOR application generates histograms for survey measurement data distribution and uploads the latest csv reports to the CLOUD</p>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e525a" style="opacity: 0;"
-
-                                    class="container-text border orchid">
-
-                                    <div class="w-layout-grid grid-accordion">
-
-                                        <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e525c-8a4fc969" class="point orchid">
-
-                                        </div>
-
-                                        <div class="container-text">
-
-                                            <h1 class="accordion-heading black">Real-Time Data Auditing</h1>
-
-                                            <p class="main-paragraph accordin black">Our application receives all the data in real-time and displays maps with exact locations of the survey measurements specifying radiation/contamination levels in those referenced locations(floor/walls/ceiling)</p>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="w-node-a1b21c6d-06e1-9a61-4f50-b6d8174e526c-8a4fc969" class="row relative">
-
-                            <img
-
-                                src="<?php echo base_url('assets/technology/6095475c255a0a6f114fc9da_1_1-8 (1).png');?>"
-
-                                loading="lazy" data-w-id="a1b21c6d-06e1-9a61-4f50-b6d8174e526d" style="opacity: 0;" alt=""
-
-                                class="image-accorndion">
-
-                            <img
-
-                                src="<?php echo base_url('assets/technology/6095475c255a0a6f114fc9da_1_1-8 (1).png');?>"
-
-                                loading="lazy" alt="" class="image-accorndion">
-
-                        </div>
-
-                    </div>
-
-                </div>
+                
 
                 <div class="d-flex justify-content-center" style="margin-bottom: 100px;">
 
